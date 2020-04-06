@@ -1,0 +1,6 @@
+[0406/103813.911:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\Program Files (x86)\Tooleat\Reports\Dump: The system cannot find the path specified. (0x3)
+[0406/103813.957:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0406/103813.958:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\Program Files (x86)\Tooleat\Reports\Dump: The system cannot find the path specified. (0x3)
+[0406/103936.845:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\Program Files (x86)\Tooleat\Reports\Dump: The system cannot find the path specified. (0x3)
+[0406/103936.847:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0406/103936.848:ERROR:crash_report_database_win.cc(580)] CreateDirectory C:\Program Files (x86)\Tooleat\Reports\Dump: The system cannot find the path specified. (0x3)

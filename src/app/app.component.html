@@ -1,0 +1,28 @@
+<!-- nav -->
+<nav class="navbar navbar-expand navbar-dark bg-dark" *ngIf="currentUser">
+    <div class="navbar-nav">
+        <a class="nav-item nav-link" routerLink="/">Home</a>
+        <a class="nav-item nav-link navbar-right" (click)="logout()" style="">Logout</a>
+    </div>
+</nav>
+
+<!-- main app container -->
+<div style="width: 35%; margin:0 auto; background-color:#b5e6f5; margin-top: 5%; padding: 2%;">
+    <div class="container" >
+        <div class="row">
+            <div class="col-sm-6 offset-sm-3">                
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- credits -->
+<div class="text-center" style="position: absolute; bottom: 0; align-content: center; width: 100%; background-color: #02095c; color: white; padding: 1%;">
+    <h2><p>
+        Quizzy App
+    </p></h2>
+    <h6><p>
+        Created by Neelay, Sneh and Grusha.
+    </p></h6>
+</div> 
